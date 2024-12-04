@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chatbox">
+            <div class="header">
+                <h2>Movie Mania</h2>
+                <p>You can search any movie here to get suggestions to related movies<p>
+            </div>
+            <div class="messages" id="message-container">
+                <div class="message bot-message">Hello! I am your movie suggestion assistant. How can I help you today?</div>
+            </div>
+            <div class="user-input">
+                <input type="text" id="userMessage" placeholder="Ask about any movies..." autocomplete="off">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
